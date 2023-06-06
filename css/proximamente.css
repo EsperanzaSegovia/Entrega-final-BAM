@@ -1,0 +1,13 @@
+.grid-container{
+    background-color: #e8e7e7;
+    display: grid;
+    height: 1000px;
+    grid-template-columns: max-content (1500px);
+    grid-template-rows: repeat(20, 1fr);
+    justify-content: center;
+    row-gap: 4em;
+    padding-top: 4em;
+}
+
+
+

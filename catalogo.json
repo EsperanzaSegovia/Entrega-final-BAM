@@ -1,0 +1,71 @@
+[
+    {"portada":"https://github.com/EsperanzaSegovia/ImagenesActividadFinal/blob/main/cofre-suni-un-viaje-extraordinario.jpg?raw=true",
+    "titulo":"Cofre Suni: El viaje extraordinario",
+    "autor":"Los editores de AUZOU",
+    "precio":"$13.990,00",
+    "fecha de publicacion":"2022",
+    "generos":["Literatura infantil"],
+    "coleccion":"Suni: El gato unicornio",
+    "sinopsis":"Takeshi no se va de vacaciones muy seguido; por eso Suni decide llevarlo a conocer a los gatos unicornio de todo el mundo. ¡Acompáñalo en esta aventura!"
+    },
+    
+    {"portada":"https://github.com/EsperanzaSegovia/ImagenesActividadFinal/blob/main/contemos-cinco-ranas-pato-mena.jpg?raw=true",
+    "titulo":"Contemos 5 ranas",
+    "autor":"Pato Mena",
+    "precio":"$4.880,00",
+    "fecha de publicacion":"2020",
+    "generos":["Humor", "Infantil"],
+    "coleccion":"",
+    "sinopsis":"¿Serán 5 ranas capaces de contar hasta 5? ¿Y qué pinta 1 pollo en todo esto? Difícil misión que necesita la ayuda de alguien con ganas de reírse..."
+    },
+    
+    {"portada":"https://github.com/EsperanzaSegovia/ImagenesActividadFinal/blob/main/cuando-los-pajaros-caen-rebecca-west.jpg?raw=true",
+    "titulo":"Cuando los pájaros caen",
+    "autor":"Rebecca West",
+    "precio":"$4.600,00",
+    "fecha de publicacion":"1966",
+    "generos":["Novela"],
+    "coleccion":"",
+    "sinopsis":"El conde Nikolai Diakonov era un leal servidor de la santa Rusia e idolatraba al Zar. Sin embargo, alguien convenció a éste de lo contrario y ahora, a comienzos del s. XX, vive exiliado en París. Pero, ¿quién sería capaz de traicionar así al conde Nicolai y por qué? El conde decide ir a visitar a un pariente en el norte de Francia. Durante el trayecto irrumpe en su vagón un joven revolucionario, que resulta ser el hijo de un viejo amigo. También él y sus camaradas han sido traicionados. A lo largo de los cuatro días de viaje tendrán tiempo de resolver el misterio."
+    },
+    
+    {"portada":"https://github.com/EsperanzaSegovia/ImagenesActividadFinal/blob/main/cuentos-de-buenas-noches-para-ninas-rebeldes.jpg?raw=true",
+    "titulo":"Cuentos de buenas noches para niñas rebeldes",
+    "autor":"Elena Favilli - Francesca Cavallo",
+    "precio":"$7.200,00",
+    "fecha de publicacion":"2017",
+    "generos":["Biografía","Literatura infantil"],
+    "coleccion":"Cuentos de Buenas noches para niñas rebeldes",
+    "sinopsis":"Había una vez una princesa... ¿una princesa? ¡¿Qué?! Había una vez niña que quería llegar hasta Marte. Érase una vez una mujer que se convirtió en una de las mejores tenistas del mundo y otra que descubrió cómo se da la metamorfosis de las mariposas. De Frida Kalo a Jane Goodall, de Coco Chanel a Nina Simone, de las hermanas Bronte a Marie Curie este libro narra las extraordinarias vidas de 100 mujeres valientes y, además, cuenta con las ilustraciones de 60 artistas de todo el mundo. Científicas, astronautas, levantadoras de pesas, juezas, chefs... cien ejemplos de determinación y audacia para las que sueñan en grande. "
+    },
+    
+    {"portada":"https://github.com/EsperanzaSegovia/ImagenesActividadFinal/blob/main/cuentos-de-buenas-noches-para-ninas-rebeldes-2.jpg?raw=true",
+    "titulo":"Cuentos de buenas noches para niñas rebeldes 2",
+    "autor":"Elena Favilli - Francesca Cavallo",
+    "precio":"$8.200,00",
+    "fecha de publicacion":"2018",
+    "generos":["Biografía","Literatura infantil"],
+    "coleccion":"Cuentos de Buenas noches para niñas rebeldes",
+    "sinopsis":"El libro reúne cien nuevas historias de mujeres extraordinarias de todo el mundo. Desde Beyoncé, pasando por J. K. Rowling, hasta Madonna; desde Rigoberta Menchú pasando por Nefertiti hasta Isadora Duncan, retratadas por las 50 ilustradoras más importantes de todo el mundo."
+    },
+    
+    {"portada":"https://github.com/EsperanzaSegovia/ImagenesActividadFinal/blob/main/cuentos-de-buenas-noches-para-ninas-rebeldes-3.jpg?raw=true",
+    "titulo":"Cuentos de buenas noches para niñas rebeldes 3",
+    "autor":"Elena Favilli - Francesca Cavallo",
+    "precio":"$8.500,00",
+    "fecha de publicacion":"2020",
+    "generos":["Biografía","Literatura infantil"],
+    "coleccion":"Cuentos de Buenas noches para niñas rebeldes",
+    "sinopsis":"Este nuevo volumen contiene 100 biografías de mujeres inmigrantes que se vieron obligadas a dejar su país de origen por varios motivos. Algunas buscaban mejores oportunidades, otras no tuvieron elección. Aquí encontrarás las historias de mujeres como Madeleine Albright, Asma Khan, Carmen Miranda o Rihanna. De chefs a cirujanas, pasando por músicas, políticas o campeonas deportivas. 100 nuevas historias que enseñarán a nuestras niñas a perseguir sus sueños, sin importar lo grandes que sean."
+    },
+    
+    {"portada":"https://github.com/EsperanzaSegovia/ImagenesActividadFinal/blob/main/cuentos-de-buenas-noches-para-ninas-rebeldes-4.jpg?raw=true",
+    "titulo":"Cuentos de buenas noches para niñas rebeldes 4",
+    "autor":"Elena Favilli - Francesca Cavallo",
+    "precio":"$9.600,00",
+    "fecha de publicacion":"2022",
+    "generos":["Biografía","Literatura infantil"],
+    "coleccion":"Cuentos de Buenas noches para niñas rebeldes",
+    "sinopsis":"Las niñas rebeldes vuelven, una vez más, con historias que no te dejarán indiferente. En el nuevo volumen nos hablarán de 100 chicas que están cambiando el mundo y rompiendo barreras. Jóvenes valientes, luchadoras, perseverantes y decididas. Chicas que son todo un referente y que dejan claro que las jóvenes de hoy en día no están dispuestas a quedarse calladas. Estas 100 historias van acompañadas de ilustraciones a todo color, con lo que en cada doble página nos encontramos con una maravillosa biografía ilustrada."
+    }
+]

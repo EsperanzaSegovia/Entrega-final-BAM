@@ -1,0 +1,26 @@
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5em;
+}
+
+.ubicaciones{
+    position: relative;
+    background-color: #e7e8e8;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: row;
+    padding: 3em;
+}
+
+.map{
+    display: grid;
+    place-items: start;
+}
+
+.img-gps{
+    position: relative;
+    height: 100%;
+}
+

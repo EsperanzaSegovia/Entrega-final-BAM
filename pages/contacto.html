@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="esp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/css/contacto.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md fixed-top bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/index.html">
+                    <img src="/img/logo-minotauro-sm.jpg" alt="">
+                </a>
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <a class="nav-link" aria-current="page" href="/index.html">Inicio</a>
+                        <a class="nav-link" href="catalogo.html">Catálogo</a>
+                        <a class="nav-link" href="tiendas.html">Tiendas habilitadas</a>
+                        <a class="nav-link" href="aboutUs.html">La editorial</a>
+                        <a class="nav-link active" href="contacto.html">Contacto</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+<section class="contenedor">
+    <div class="holder">
+        <div class="columna-izquiera">
+            <img src="/img/email.png" alt="">
+            <h2>Otras formas de contacto:</h2>
+            <div class="text-box">
+                <div class="redes">
+                    <i class="bi bi-telephone-fill"></i> XXXX-XXXX
+                </div>
+                <div class="redes">
+                    <i class="bi bi-envelope"></i> info@minotauro.com
+                </div>
+                <div class="redes">
+                    <i class="bi bi-geo-alt-fill"></i>Esmeralda 950, CABA
+                </div>
+                <div class="redes">
+                    <a href="http://www.facebook.com">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                </div>
+                <div class="redes">
+                    <a href="http://www.instagram.com">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                </div>
+                <div class="redes">
+                    <a href="http://www.twitter.com">
+                        <i class="bi bi-twitter"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="columna-derecha">
+            <form class="formulario" action="" method="">
+                <label class="referencia" for="nombre">Nombre</label>
+                <input class="entrada" id="nombre" type="text">
+                <label class="referencia" for="email">Dirección de correo electrónico</label>
+                <input class="entrada" id="email" type="email">
+                <label class="referencia" for="Telefono">Telefono</label>
+                <input class="entrada" for="telefono" type="tel">
+                <label class="referencia" for="asunto">Asunto</label>
+                <select class="asunto">
+                    <option selected>Seleciona una opción</option>
+                    <option value="">Quiero información para docentes</option>
+                    <option value="">Atención a bibliotecas y escuelas</option>
+                    <option value="">Prensa y comunicación</option>
+                    <option value="">Quiero enviar mi manustrito o portfolio</option>
+                    <option value="">Quiero enviar mi cv</option>
+                    <option value="">Cancelar mi suscripción al Newsletter</option>
+                </select>
+                <div class="archivos">
+                    <label for="archivosMultiples" class="referencia">Inserta tu archivo</label>
+                    <input class="cargaArchivos" type="file" id="archivosMultiples" multiple>
+                </div>
+                <label class="referencia" for="mensaje">Mensaje</label>
+                <textarea class="mensaje" id="mensaje"></textarea>
+                <button class="submit" type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

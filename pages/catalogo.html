@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="esp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/catalogo.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md fixed-top bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/index.html">
+                    <img src="/img/logo-minotauro-sm.jpg" alt="">
+                </a>
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <a class="nav-link" aria-current="page" href="/index.html">Inicio</a>
+                        <a class="nav-link active" href="catalogo.html">Catálogo</a>
+                        <a class="nav-link" href="tiendas.html">Tiendas habilitadas</a>
+                        <a class="nav-link" href="aboutUs.html">La editorial</a>
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+<section class="contenido">
+    <div class="mostrador" id="mostrador">
+
+        <div class="fila">
+            <div class="item" onclick="cargar(this)">
+                <div class="contenedor-foto">
+                    <img src="/img/aquel-verano-jillian-mariko.jpg" alt="">
+                </div>
+                <p class="descripcion">AQUEL VERANO</p>
+                <span class="precio">$ 1.300</span>
+            </div>
+            <div class="item" onclick="cargar(this)">
+                <div class="contenedor-foto">
+                    <img src="/img/aristoteles-y-dante-descubren-los-secretos-del-universo.png" alt="">
+                </div>
+                <p class="descripcion" id>ARISTÓTELES Y DANTE DESCUBREN LOS SECRETOS DEL UNIVERSO</p>
+                <span class="precio">$ 1.800</span>
+            </div>
+            <div class="item" onclick="cargar(this)">
+                <div class="contenedor-foto">
+                    <img src="/img/aristoteles-y-dante-se-sumergen-en-las-aguas-del-mundo.jpg" alt="">
+                </div>
+                <p class="descripcion">ARISTÓTELES Y DANTE SE SUMERGEN EN LAS AGUAS DEL MUNDO</p>
+                <span class="precio">$ 3.600</span>
+            </div>
+        </div>
+
+        <div class="fila">
+            <div class="item" onclick="cargar(this)">
+                <div class="contenedor-foto">
+                    <img src="/img/asesino-de-brujas-dioses-y-monstruos-shelby-mahurin.png" alt="">
+                </div>
+                <p class="descripcion">ASESINO DE BRUJAS - DIOSES Y MONSTRUOS</p>
+                <span class="precio">$ 130</span>
+            </div>
+            <div class="item" onclick="cargar(this)">
+                <div class="contenedor-foto">
+                    <img src="/img/asesino-de-brujas-la-bruja-blanca-shelby-mahurin.png" alt="">
+                </div>
+                <p class="descripcion">ASESINO DE BRUJAS - LA BRUJA BLANCA</p>
+                <span class="precio">$ 2.000</span>
+            </div>
+            <div class="item" onclick="cargar(this)">
+                <div class="contenedor-foto">
+                    <img src="/img/asesino-de-brujas-los-hijos-del-rey-shelby-mahurin.jpg" alt="">
+                </div>
+                <p class="descripcion">ASESINO DE BRUJAS - LOS HIJOS DEL REY</p>
+                <span class="precio">$ 2.500</span>
+            </div>
+        </div>
+
+        <div class="fila">
+            <div class="item" onclick="cargar(this)">
+                <div class="contenedor-foto">
+                    <img src="/img/battle-royale-koushun-takami.jpg" alt="">
+                </div>
+                <p class="descripcion">BATTLE ROYALE</p>
+                <span class="precio">$ 130</span>
+            </div>
+            <div class="item" onclick="cargar(this)">
+                <div class="contenedor-foto">
+                    <img src="/img/boquitas-pintadas-manuel-puig.jpg" alt="">
+                </div>
+                <p class="descripcion">BOQUITAS PINTADAS</p>
+                <span class="precio">$ 2.000</span>
+            </div>
+            <div class="item" onclick="cargar(this)">
+                <div class="contenedor-foto">
+                    <img src="/img/chica-conoce-chica.jpg" alt="">
+                </div>
+                <p class="descripcion">CHICA CONOCE CHICA</p>
+                <span class="precio">$ 2.500</span>
+            </div>
+        </div>
+
+        <div class="fila">
+            <div class="item" onclick="cargar(this)">
+                <div class="contenedor-foto">
+                    <img src="/img/cofre-suni-un-viaje-extraordinario.jpg" alt="">
+                </div>
+                <p class="descripcion">COFRE SUNI</p>
+                <span class="precio">$ 130</span>
+            </div>
+            <div class="item" onclick="cargar(this)">
+                <div class="contenedor-foto">
+                    <img src="/img/contemos-cinco-ranas-pato-mena.jpg" alt="">
+                </div>
+                <p class="descripcion">CONTEMOS CINCO RANAS</p>
+                <span class="precio">$ 2.000</span>
+            </div>
+            <div class="item" onclick="cargar(this)">
+                <div class="contenedor-foto">
+                    <img src="/img/cuando-los-pajaros-caen-rebecca-west.jpg" alt="">
+                </div>
+                <p class="descripcion">CUANDO LOS PAJAROS CAEN</p>
+                <span class="precio">$ 2.500</span>
+            </div>
+        </div>
+
+        <div class="fila">
+            <div class="item" onclick="cargar(this)">
+                <div class="contenedor-foto">
+                    <img src="/img/cuentos-de-buenas-noches-para-ninas-rebeldes-2.jpg" alt="">
+                </div>
+                <p class="descripcion">CUENTOS DE BUENAS NOCHES PARA NIÑAS REBELDES 2</p>
+                <span class="precio">$ 130</span>
+            </div>
+            <div class="item" onclick="cargar(this)">
+                <div class="contenedor-foto">
+                    <img src="/img/cuentos-de-buenas-noches-para-ninas-rebeldes-3.jpg" alt="">
+                </div>
+                <p class="descripcion">CUENTOS DE BUENAS NOCHES PARA NIÑAS REBELDES 3</p>
+                <span class="precio">$ 2.000</span>
+            </div>
+            <div class="item" onclick="cargar(this)">
+                <div class="contenedor-foto">
+                    <img src="/img/cuentos-de-buenas-noches-para-ninas-rebeldes-4.jpg" alt="">
+                </div>
+                <p class="descripcion">CUENTOS DE BUENAS NOCHES PARA NIÑAS REBELDES 4</p>
+                <span class="precio">$ 2.500</span>
+            </div>
+        </div>
+
+        <div class="fila">
+            <div class="item" onclick="cargar(this)">
+                <div class="contenedor-foto">
+                    <img src="/img/cuentos-de-buenas-noches-para-ninas-rebeldes.jpg" alt="">
+                </div>
+                <p class="descripcion">CUENTOS DE BUENAS NOCHES PARA NIÑAS REBELDES</p>
+                <span class="precio">$ 130</span>
+            </div>
+            <div class="item" onclick="cargar(this)">
+                <div class="contenedor-foto">
+                    <img src="/img/el-amanecer-de-los-conejitos-suicidas-andy-riley.jpg" alt="">
+                </div>
+                <p class="descripcion">EL AMANECER DE LOS CONEJITOS SUICIDAS</p>
+                <span class="precio">$ 2.000</span>
+            </div>
+            <div class="item" onclick="cargar(this)">
+                <div class="contenedor-foto">
+                    <img src="/img/el-azul-es-un-color-calido-jul-maroh.jpg" alt="">
+                </div>
+                <p class="descripcion">EL AZUL ES UN COLOR CÁLIDO</p>
+                <span class="precio">$ 2.500</span>
+            </div>
+        </div>
+
+        <div class="fila">
+            <div class="item" onclick="cargar(this)">
+                <div class="contenedor-foto">
+                    <img src="/img/el-beso-de-la-mujer-arana-manuel-puig.jpg" alt="">
+                </div>
+                <p class="descripcion">EL BESO DE LA MUJER ARAÑA</p>
+                <span class="precio">$ 130</span>
+            </div>
+            <div class="item" onclick="cargar(this)">
+                <div class="contenedor-foto">
+                    <img src="/img/el-callejon-de-las-almas-perdidas-william-lindsay-gresham.png" alt="">
+                </div>
+                <p class="descripcion">EL CALLEJÓN DE LAS ALMAS PERDIDAS</p>
+                <span class="precio">$ 2.000</span>
+            </div>
+            <div class="item" onclick="cargar(this)">
+                <div class="contenedor-foto">
+                    <img src="/img/el-color-de-las-cosas-invisibles-andrea-longarela.jpg" alt="">
+                </div>
+                <p class="descripcion">EL COLOR DE LAS COSAS INVISIBLES</p>
+                <span class="precio">$ 2.500</span>
+            </div>
+        </div>
+
+        <div class="fila">
+            <div class="item" onclick="cargar(this)">
+                <div class="contenedor-foto">
+                    <img src="/img/el-curioso-incidente-del-perro-a-medianoche-mark-haddon.jpg" alt="">
+                </div>
+                <p class="descripcion">EL CURIOSO INCIDENTE DEL PERRO A MEDIA NOCHE</p>
+                <span class="precio">$ 130</span>
+            </div>
+            <div class="item" onclick="cargar(this)">
+                <div class="contenedor-foto">
+                    <img src="/img/el-gato-que-amaba-los-libros-sosuke-natsukawa.jpg" alt="">
+                </div>
+                <p class="descripcion">EL GATO QUE AMABA LOS LIBROS</p>
+                <span class="precio">$ 2.000</span>
+            </div>
+            <div class="item" onclick="cargar(this)">
+                <div class="contenedor-foto">
+                    <img src="/img/el-gato-que-buscaba-un-nombre-fumiko-takeshita.jpg" alt="">
+                </div>
+                <p class="descripcion">EL GATO QUE BUSCABA UN NOMBRE</p>
+                <span class="precio">$ 2.500</span>
+            </div>
+        </div>
+
+        <div class="fila">
+            <div class="item" onclick="cargar(this)">
+                <div class="contenedor-foto">
+                    <img src="/img/el-huesped-dudoso-edward-gorey.jpg" alt="">
+                </div>
+                <p class="descripcion">EL HUESPES DUDOSO</p>
+                <span class="precio">$ 130</span>
+            </div>
+            <div class="item" onclick="cargar(this)">
+                <div class="contenedor-foto">
+                    <img src="/img/el-jardin-malefico-edward-gorey.jpg" alt="">
+                </div>
+                <p class="descripcion">EL JARDIN MALEFICO</p>
+                <span class="precio">$ 2.000</span>
+            </div>
+            <div class="item" onclick="cargar(this)">
+                <div class="contenedor-foto">
+                    <img src="/img/el-libro-de-los-conejitos-suicidas-andy-riley.jpg" alt="">
+                </div>
+                <p class="descripcion">EL LIBRO DE LOS CONEJITOS SUICIDAS</p>
+                <span class="precio">$ 2.500</span>
+            </div>
+        </div>
+
+        <div class="fila">
+            <div class="item" onclick="cargar(this)">
+                <div class="contenedor-foto">
+                    <img src="/img/el-lugar-alejado-mas-cercano-posible-hayley-long.jpg" alt="">
+                </div>
+                <p class="descripcion">EL LUGAR ALEJADO MÁS CERCANO POSIBLE</p>
+                <span class="precio">$ 130</span>
+            </div>
+            <div class="item" onclick="cargar(this)">
+                <div class="contenedor-foto">
+                    <img src="/img/el-mapa-de-los-anhelos-alice-kellen.jpg" alt="">
+                </div>
+                <p class="descripcion">EL MAPA DE LOS ANHELOS</p>
+                <span class="precio">$ 2.000</span>
+            </div>
+            <div class="item" onclick="cargar(this)">
+                <div class="contenedor-foto">
+                    <img src="/img/el-regreso-de-los-conejitos-suicidas-andy-riley.jpg" alt="">
+                </div>
+                <p class="descripcion">EL REGRESO DE LOS CONEJITOS SUICIDAS</p>
+                <span class="precio">$ 2.500</span>
+            </div>
+        </div>
+
+        <div class="fila">
+            <div class="item" onclick="cargar(this)">
+                <div class="contenedor-foto">
+                    <img src="/img/ella-y-su-gato-naruki-nagakawa.jpg" alt="">
+                </div>
+                <p class="descripcion">ELLA Y SU GATO</p>
+                <span class="precio">$ 130</span>
+            </div>
+            <div class="item" onclick="cargar(this)">
+                <div class="contenedor-foto">
+                    <img src="/img/en-el-bosque-oscuro-dale-bailey.jpg" alt="">
+                </div>
+                <p class="descripcion">EN EL BOSQUE OSCURO</p>
+                <span class="precio">$ 2.000</span>
+            </div>
+            <div class="item" onclick="cargar(this)">
+                <div class="contenedor-foto">
+                    <img src="/img/fence-vol-09.jpg" alt="">
+                </div>
+                <p class="descripcion">FENCE - VOL 9</p>
+                <span class="precio">$ 2.500</span>
+            </div>
+        </div>
+
+        <div class="fila">
+            <div class="item" onclick="cargar(this)">
+                <div class="contenedor-foto">
+                    <img src="/img/hay-algo-matando-niños-vol-2.jpg" alt="">
+                </div>
+                <p class="descripcion">HAY ALGO MATANDO NIÑOS</p>
+                <span class="precio">$ 130</span>
+            </div>
+            <div class="item" onclick="cargar(this)">
+                <div class="contenedor-foto">
+                    <img src="/img/persona-normal-benito-taibo.jpeg" alt="">
+                </div>
+                <p class="descripcion">PERSONA NORMAL</p>
+                <span class="precio">$ 2.000</span>
+            </div>
+            <div class="item" onclick="cargar(this)">
+                <div class="contenedor-foto">
+                    <img src="/img/viuda-de-hierro-xiran-jay-zhao.jpg" alt="">
+                </div>
+                <p class="descripcion">VIUDA DE HIERRO</p>
+                <span class="precio">$ 2.500</span>
+            </div>
+        </div>
+
+    </div>
+    <!-- CONTENEDOR DEL ITEM SELECCIONADO -->
+    <div class="seleccion" id="seleccion">
+        <div class="cerrar" onclick="cerrar()">
+            &#x2715
+        </div>
+        <div class="info">
+            <img src="/img/aquel-verano-jillian-mariko.jpg" alt="" id="img">
+            <h2 id="titulo">TITULO</h2>
+            <p id="descripcion">Descripción</p>
+
+            <span class="precio" id="precio">$ 1300</span>
+
+            <div class="fila">
+                <button><a href="/pages/tiendas.html" class="boton">DONDE COMPRAR</a></button>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <script src="/js/catalogo.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
